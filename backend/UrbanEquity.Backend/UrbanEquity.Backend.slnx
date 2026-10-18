@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+  </Folder>
+  <Project Path="UrbanEquity.Backend.AppHost/UrbanEquity.Backend.AppHost.csproj" />
+  <Project Path="UrbanEquity.Backend.ServiceDefaults/UrbanEquity.Backend.ServiceDefaults.csproj" />
+</Solution>
