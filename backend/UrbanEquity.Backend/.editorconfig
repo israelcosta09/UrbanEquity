@@ -6,9 +6,20 @@ root = true
 
 #### Opções Principais do EditorConfig ####
 
+# Sempre preferir namespace no formato novo
+csharp_style_namespace_declarations = file_scoped:warning
+
+# Remover usings desnecessários
+dotnet_diagnostic.IDE0005.severity = warning
+dotnet_diagnostic.IDE0161.severity = warning
+
+# Usar os tipos C# simplificados
+dotnet_style_predefined_type_for_locals_parameters_members = true:suggestion
+dotnet_style_predefined_type_for_member_access = true:suggestion
+
 # Recuo e espaçamento
 indent_size = 2
-indent_style = space
+indent_style = tab
 tab_width = 2
 
 # Preferências de nova linha
